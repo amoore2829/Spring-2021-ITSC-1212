@@ -1,0 +1,27 @@
+public class ITSC {
+
+    private int numStudents = 10;
+
+    private int classSize = 20;
+
+    public ITSC(int numStudents, int classSize) {
+
+        this.numStudents = numStudents;
+
+        this.classSize = classSize;
+
+     }
+
+    public double calculateRate(){
+
+        double rate = (double)(this.numStudents)/this.classSize;
+
+    }
+
+    public double getRate(){
+
+        return rate;
+
+    }
+
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class DayOfTheWeek{
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int checker = 1
+      while(checker > 1) {
+      System.out.println("Month");
+      int month = scanner.nextInt();
+      if (month < 1 || month > 12) {
+        System.out.println("Choose from January (1) to December (12)");
+        continue;
+      }
+      System.out.println("Day");
+      int day = scanner.nextInt();
+      if (day < 1 || day > 31){
+        System.out.println("Choose from the first day (1) to the last day (31) of the month");
+        continue;
+      }
+    }
+  }
+}
+        

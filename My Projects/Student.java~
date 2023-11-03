@@ -1,0 +1,70 @@
+public class Student{
+2
+3 private String stdName;
+4
+5 private int stdAge;
+6
+7 private String stdAddress;
+8
+9 private int stdId = 1;
+10 public Student(){
+11
+12 stdName="Alex";
+13
+14 stdAge = 21;
+15
+16 stdAddress="Charlotte";
+17 }
+18 public Student(String name, int age, String add)
+19 {
+20
+21 stdName=name;
+22
+23 stdAge = age;
+24
+25 stdAddress=add;
+26 }
+27 public void disp() {
+28
+29 System.out.println ("Information of a student");
+30
+31 System.out.println("Student Name: "+ stdName);
+32
+33 System.out.println("Student Salary: "+ stdAge);
+34
+35 System.out.println("Student Address: "+ stdAddress);
+36
+37 }
+38 public int getStudentId()
+39 {
+40 return stdId;
+41 }
+42
+43
+44
+45 public void setStudentId(int id)
+46
+47 {
+48
+49 stdId= id;
+50
+51 }
+52
+53
+54
+55 public static void main(String[] args){
+56
+57 Student niner = new Student();
+58 niner.disp();
+59
+60 System.out.println("Student ID Number: "+ niner.getStudentId());
+61
+62
+63
+64 Student lily = new Student("Lily", 15, "Roanoke");
+65
+66 lily.setStudentId(2);
+67
+68 System.out.println("Student ID Number: "+ lily.getStudentId());
+69
+70 }

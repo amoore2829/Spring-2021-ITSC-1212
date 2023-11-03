@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+    public class Multiplication {
+        public static void main(String[] args) {}
+            int firstNumber = 0;
+            int secondNumber = 0;
+            Scanner num1 = new Scanner(System.in);
+            Scanner num2 = new Scanner(System.in);
+            System.out.println("Your number is" + num1 * num2;);
+    }

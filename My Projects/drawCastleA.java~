@@ -1,0 +1,4 @@
+public void drawCastleA()
+  {
+    int width = 480;
+    int length = 640;

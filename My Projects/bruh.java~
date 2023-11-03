@@ -1,0 +1,15 @@
+public class bruh {    
+  
+  public static void main(String [] args) {     
+  int num1 = 4;
+int num2 = 10;
+if ((num1 + num2) < (num2 * 3)) {
+       System.out.println(num1);
+} else {
+       System.out.println(num1 + num2);
+}
+}
+  
+}
+
+  

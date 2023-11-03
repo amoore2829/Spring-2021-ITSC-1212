@@ -1,0 +1,32 @@
+public class AprilDays{
+  public static void main(String [] args)
+  {
+    if (args.length >0){
+      int num = 0;
+      String day;
+      num = Integer.parseInt(args[0]);
+      System.out.println("the num is " + num);
+      
+      if (num <1 || num > 30)
+      {
+        System.out.println("Please enter a number between 1 and 30");
+        return;
+      }
+      int rem = num%7;
+      switch (rem) {
+        case 1: day = "Sunday"; break;
+        case 2: day = "Monday"; break;
+        case 3: day = "Tuesday";break;
+        case 4: day = "Wednesday";break;
+        case 5: day = "Thursday"; break;
+        case 6: day = "Friday";break;
+        default:day = "Saturday";break;
+      }
+      System.out.println("April " + num + " is a " + day);
+    }
+    else {
+      System.out.println("Error. No number passed in.");
+      return;
+    }
+  }
+}

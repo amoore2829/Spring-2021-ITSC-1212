@@ -1,0 +1,17 @@
+public class VacationBudget {
+
+private double amountLeftToSpend;
+private final double getHomeCost = 1000.0;
+
+public VacationBudget(double startingBudget) {
+amountLeftToSpend = startingBudget;
+}
+
+public void payExpenses(double whatSomethingCost) {
+amountLeftToSpend = amountLeftToSpend - whatSomethingCost;
+}
+
+public double getAmountLeft() {
+return amountLeftToSpend;
+}
+}

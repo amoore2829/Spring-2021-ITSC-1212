@@ -1,0 +1,6 @@
+Alex Moore
+ITSC1212 006 // course ID and section
+Module 3 - Programming Checkpoint # 1
+
+The Yo program implements an application that  // application description simply displays "Yo!" to the standard output
+

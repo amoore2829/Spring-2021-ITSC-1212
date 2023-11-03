@@ -1,0 +1,18 @@
+public class DogPark {
+
+  private int numDogs = 0;
+  private double parkSize = 0.0;
+  
+  public DogPark(int numDogs, double parkSize) {
+  
+    numDogs = numDogs;
+    parkSize = parkSize;
+    
+  }
+
+  public int getNumDogs() {
+  
+    return numDogs;
+  }
+
+}
