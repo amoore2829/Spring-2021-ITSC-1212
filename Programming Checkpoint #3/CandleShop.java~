@@ -1,0 +1,9 @@
+import java.util.Scanner;                       // Include this line to import the Scanner utility
+
+public class CandleShop
+{
+  public static void main(String [] args) 
+  {
+    // Part 1
+    Scanner keyboard = new Scanner(System.in);  // Include these two
+    int x = keyboard.nextInt();
